@@ -1,0 +1,5 @@
+D:\CNAM\Sem1\POO\TP 1\TP 1\bin\Release\net6.0\publish\TP 1.exe
+D:\CNAM\Sem1\POO\TP 1\TP 1\bin\Release\net6.0\publish\TP 1.dll
+D:\CNAM\Sem1\POO\TP 1\TP 1\bin\Release\net6.0\publish\TP 1.deps.json
+D:\CNAM\Sem1\POO\TP 1\TP 1\bin\Release\net6.0\publish\TP 1.runtimeconfig.json
+D:\CNAM\Sem1\POO\TP 1\TP 1\bin\Release\net6.0\publish\TP 1.pdb
