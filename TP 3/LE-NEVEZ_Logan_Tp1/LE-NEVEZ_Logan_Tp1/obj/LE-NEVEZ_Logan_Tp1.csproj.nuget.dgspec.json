@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CNAM\\Sem1\\POO\\TP 2\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1.csproj": {}
+    "D:\\CNAM\\Sem1\\POO\\TP 3\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1.csproj": {}
   },
   "projects": {
-    "D:\\CNAM\\Sem1\\POO\\TP 2\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1.csproj": {
+    "D:\\CNAM\\Sem1\\POO\\TP 3\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CNAM\\Sem1\\POO\\TP 2\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1.csproj",
+        "projectUniqueName": "D:\\CNAM\\Sem1\\POO\\TP 3\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1.csproj",
         "projectName": "LE-NEVEZ_Logan_Tp1",
-        "projectPath": "D:\\CNAM\\Sem1\\POO\\TP 2\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1.csproj",
+        "projectPath": "D:\\CNAM\\Sem1\\POO\\TP 3\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1.csproj",
         "packagesPath": "C:\\Users\\desdu\\.nuget\\packages\\",
-        "outputPath": "D:\\CNAM\\Sem1\\POO\\TP 2\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\obj\\",
+        "outputPath": "D:\\CNAM\\Sem1\\POO\\TP 3\\LE-NEVEZ_Logan_Tp1\\LE-NEVEZ_Logan_Tp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\desdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
