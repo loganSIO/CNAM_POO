@@ -45,5 +45,14 @@
 
             return text;
         }
+        public List<Weapon> FiveBiggestAverageDamageWeapons()
+        {
+            return Weapons.OrderBy(x => x.AverageDamage()).Take(5).ToList();
+        }
+        public List<Weapon> FiveBiggestMinDamageWeapons()
+        {
+            // modif pour retourner le plus grand des petits
+            return Weapons.OrderBy(x => x.MinDamage).Take(5).ToList();
+        }
     }
 }

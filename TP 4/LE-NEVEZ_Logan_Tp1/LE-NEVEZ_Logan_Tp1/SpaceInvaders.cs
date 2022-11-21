@@ -44,6 +44,43 @@ namespace LE_NEVEZ_Logan_Tp1
                 Console.WriteLine("Player has won");
             else
                 Console.WriteLine("Player lost");
+
+            var biggestDamageWeapons = Armory.Instance.FiveBiggestAverageDamageWeapons();
+            var biggestMinDamageWeapon = Armory.Instance.FiveBiggestMinDamageWeapons();
+
+            Console.WriteLine("Les armes avec les plus gros dommages moyens : ");
+            foreach (var item in biggestDamageWeapons)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            Console.WriteLine("Les armes avec les dommages minimums les plus hauts");
+            foreach (var item in biggestMinDamageWeapon)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+        }
+
+        static void Main(string[] args)
+        {
+            string path = args[0];
+            var weaponImport = new ArmeImporteur();
+            weaponImport.frequencyWord(path);
+
+            weaponImport.newWeapon();
+            var biggestDamageWeapons = Armory.Instance.FiveBiggestAverageDamageWeapons();
+            var biggestMinDamageWeapon = Armory.Instance.FiveBiggestMinDamageWeapons();
+
+            Console.WriteLine("5 five AVG weapons damage: ");
+            foreach (var item in biggestDamageWeapons)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            Console.WriteLine("5 five min weapons damage: ");
+            foreach (var item in biggestMinDamageWeapon)
+            {
+                Console.WriteLine(item.ToString());
+            }
         }
 
         // Liste de vaisseaux ennemis
@@ -115,7 +152,5 @@ namespace LE_NEVEZ_Logan_Tp1
         {
             return Player.Ship.IsDestroyed ? false : true;
         }
-
-
     }
 }

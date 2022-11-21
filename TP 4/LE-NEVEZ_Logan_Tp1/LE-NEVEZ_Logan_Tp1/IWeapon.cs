@@ -10,5 +10,6 @@ namespace LE_NEVEZ_Logan_Tp1
         int MaxDamage { get; }
         double TimeBeforeReload { get; set; }
         int Shoot();
+        double AverageDamage();
     }
 }
